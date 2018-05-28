@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>HexColor</title>
+  	<meta charset="utf-8">
+	<link rel="icon" href="img/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<h1>HexColor</h1>
+
+	<div class="container">
+		<h2>Blender</h2>
+		<p>Input two valid CSS color values in a hexadecimal format :</p>
+
+		<table>
+			<tbody>
+				<tr>
+					<th>Color 1</th>
+					<td><input type="text" id="input1" maxlength="7" autofocus></td>
+					<td><div class="color" id="color1"></div></td>
+				</tr>
+				<tr>
+					<th>Color 2</th>
+					<td><input type="text" id="input2" maxlength="7"></td>
+					<td><div class="color" id="color2"></div></td>
+				</tr>
+				<tr><th></th><td></td><td></td></tr>
+				<tr>
+					<th>Result</th>
+					<td><input type="text" id="output" readonly></td>
+					<td><div class="color" id="color3"></div></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Exemple</h2>
+		<p>For its time, the PC-8801SR had a high display resolution, but could only display 8 out of 512 colors simultaneously.<br>Graphic designers had to use several techniques to create new contrasts on the screen :</p>
+
+		<table>
+			<tbody>
+				<tr>
+					<td><div class="color" style="background-color: #00FF00;">#00FF00</div></td>
+					<td>&&</td>
+					<td><div class="color" style="background-color: #0000FF;">#0000FF</div></td>
+					<td>=</td>
+					<td><div class="color" style="background-color: #008080;">#008080</div></td>
+				</tr>
+				<tr>
+					<td><div class="color" style="background-color: #FF00FF;">#FF00FF</div></td>
+					<td>&&</td>
+					<td><div class="color" style="background-color: #00FFFF;">#00FFFF</div></td>
+					<td>=</td>
+					<td><div class="color" style="background-color: #8080FF;">#8080FF</div></td>
+				</tr>
+				<tr>
+					<td><div class="color" style="background-color: #8080FF;">#8080FF</div></td>
+					<td>&&</td>
+					<td><div class="color" style="background-color: #FFFFFF;">#FFFFFF</div></td>
+					<td>=</td>
+					<td><div class="color" style="background-color: #C0C0FF;">#C0C0FF</div></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<table>
+			<tbody>
+				<tr>
+					<th>Original</th>
+					<th>Outcome</th>
+				</tr>
+				<tr>
+					<td><img src="img/gallForce-original.png" alt="gallForce-original"></td>
+					<td><img src="img/gallForce-modified.png" alt="gallForce-modified"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<p class="footer">Samy Vera | Original image from "Gall Force: Eternal Story" on NEC PC-8801</p>
+</body>
+
+</html>
